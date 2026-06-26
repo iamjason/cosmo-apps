@@ -1,0 +1,38 @@
+<svg viewBox="0 0 220 170" width="440" height="340" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+  <!-- Flock the shepherd tardigrade — rosy lavender, pink hat + crook, herded repos -->
+  <rect width="220" height="170" fill="#131127"/>
+  <!-- stars -->
+  <rect x="120" y="20" width="4" height="4" fill="#ffffff" opacity=".6"/>
+  <rect x="206" y="150" width="3" height="3" fill="#ffffff" opacity=".5"/>
+  <!-- shepherd's crook (right side) -->
+  <rect x="184" y="44" width="6" height="98" fill="#ff9eae"/>          <!-- staff -->
+  <rect x="170" y="40" width="20" height="6" fill="#ff9eae"/>          <!-- hook top -->
+  <rect x="170" y="40" width="6" height="18" fill="#ff9eae"/>          <!-- hook curl -->
+  <!-- the flock: 3 little repo dots being herded (lower left) -->
+  <rect x="6" y="118" width="13" height="13" fill="#ff9eae"/>
+  <rect x="22" y="130" width="11" height="11" fill="#caa0d8"/>
+  <rect x="4" y="138" width="10" height="10" fill="#ffd166"/>
+  <!-- body (rosy) -->
+  <rect x="56" y="36" width="96" height="12" fill="#caa0d8"/>
+  <rect x="44" y="48" width="120" height="60" fill="#caa0d8"/>
+  <rect x="56" y="108" width="108" height="12" fill="#ad7fbe"/>
+  <rect x="164" y="60" width="12" height="40" fill="#caa0d8"/>
+  <rect x="92" y="48" width="4" height="60" fill="#ad7fbe"/>
+  <rect x="124" y="48" width="4" height="60" fill="#ad7fbe"/>
+  <rect x="44" y="44" width="52" height="4" fill="#dff3ff" opacity=".8"/>
+  <rect x="40" y="48" width="4" height="44" fill="#dff3ff" opacity=".8"/>
+  <rect x="44" y="92" width="52" height="4" fill="#dff3ff" opacity=".8"/>
+  <rect x="96" y="48" width="4" height="44" fill="#dff3ff" opacity=".8"/>
+  <rect x="56" y="60" width="14" height="14" fill="#241d3d"/>
+  <rect x="60" y="63" width="5" height="5" fill="#ffffff"/>
+  <rect x="48" y="82" width="10" height="6" fill="#e8a8c8"/>
+  <rect x="58" y="86" width="14" height="4" fill="#241d3d"/>
+  <rect x="58" y="120" width="14" height="18" fill="#ad7fbe"/>
+  <rect x="88" y="120" width="14" height="18" fill="#ad7fbe"/>
+  <rect x="118" y="120" width="14" height="18" fill="#ad7fbe"/>
+  <rect x="148" y="120" width="14" height="18" fill="#ad7fbe"/>
+  <!-- space-cowboy hat on top of the helmet (pink) -->
+  <rect x="34" y="34" width="68" height="6" fill="#ff9eae"/>           <!-- brim -->
+  <rect x="50" y="22" width="34" height="12" fill="#ff9eae"/>          <!-- crown -->
+  <rect x="50" y="30" width="34" height="4" fill="#ad7fbe"/>           <!-- hat band -->
+</svg>

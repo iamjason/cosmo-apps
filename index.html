@@ -72,6 +72,18 @@
     border: 2px dashed var(--shade); color: var(--dim);
   }
 
+  .crew-intro { text-align: center; color: var(--dim); font-size: 14px; margin: -14px auto 28px; max-width: 600px; }
+  .crew { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; }
+  .crew-member {
+    background: var(--navy-2); border: 2px solid #2a2547; box-shadow: 5px 5px 0 var(--navy-ink);
+    padding: 20px; text-align: center;
+  }
+  .crew-member img { width: 100%; max-width: 280px; image-rendering: pixelated; display: block; margin: 0 auto; }
+  .crew-member figcaption { display: flex; flex-direction: column; gap: 3px; margin-top: 12px; }
+  .crew-member .crew-name { color: var(--lavender); font-size: 19px; font-weight: 700; letter-spacing: 1px; }
+  .crew-member .crew-role { color: var(--dim); font-size: 11px; letter-spacing: 2px; text-transform: uppercase; }
+  .crew-member .crew-prop { font-size: 13px; margin-top: 4px; }
+
   footer {
     text-align: center; color: var(--dim); font-size: 13px;
     padding: 72px 0 56px; max-width: 600px; margin: 0 auto; line-height: 1.7;
@@ -95,7 +107,7 @@
   <div class="apps">
 
     <div class="app">
-      <img class="icon" src="icons/cosmo.png" alt="Cosmo app icon">
+      <img class="icon" src="icons/cosmo.png" alt="Cosmo app icon — janitor tardigrade with a broom">
       <span class="tag">Disk cleaner</span>
       <h3>Cosmo</h3>
       <p class="pitch">Reclaim the space your dev tools left behind.</p>
@@ -106,7 +118,7 @@
     </div>
 
     <div class="app">
-      <img class="icon" src="icons/agentic.png" alt="Agentic app icon">
+      <img class="icon" src="icons/agentic.png" alt="Agentic app icon — captain tardigrade with a headset">
       <span class="tag">Agent workspace</span>
       <h3>Agentic</h3>
       <p class="pitch">Orchestrate your AI coding sessions.</p>
@@ -117,7 +129,7 @@
     </div>
 
     <div class="app">
-      <img class="icon" src="icons/flock.png" alt="Flock app icon">
+      <img class="icon" src="icons/flock.png" alt="Flock app icon — shepherd tardigrade with a cowboy hat">
       <span class="tag">Repo wrangler</span>
       <h3>Flock</h3>
       <p class="pitch">Wrangle a flock of repos from the menu bar.</p>
@@ -126,6 +138,39 @@
         <a class="primary" href="https://github.com/iamjason/flock-releases/releases/latest">↓ Download</a>
       </div>
     </div>
+
+  </div>
+
+  <h2 class="section">MEET THE CREW</h2>
+  <p class="crew-intro">One space tardigrade, three personas — same crew, different jobs.</p>
+  <div class="crew">
+
+    <figure class="crew-member">
+      <img src="mascot/cosmo-janitor.svg" alt="Cosmo, the janitor tardigrade with a gold broom">
+      <figcaption>
+        <span class="crew-name">Cosmo</span>
+        <span class="crew-role">Janitor</span>
+        <span class="crew-prop" style="color: var(--gold);">gold broom + sparkle</span>
+      </figcaption>
+    </figure>
+
+    <figure class="crew-member">
+      <img src="mascot/agentic-captain.svg" alt="Agentic, the captain tardigrade with a mint headset and terminal prompt">
+      <figcaption>
+        <span class="crew-name">Agentic</span>
+        <span class="crew-role">Captain</span>
+        <span class="crew-prop" style="color: var(--mint);">mint headset + &gt;_</span>
+      </figcaption>
+    </figure>
+
+    <figure class="crew-member">
+      <img src="mascot/flock-shepherd.svg" alt="Flock, the shepherd tardigrade with a pink cowboy hat and crook">
+      <figcaption>
+        <span class="crew-name">Flock</span>
+        <span class="crew-role">Shepherd</span>
+        <span class="crew-prop" style="color: var(--pink);">pink hat + crook</span>
+      </figcaption>
+    </figure>
 
   </div>
 
